@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Reproduce all results" type="PythonConfigurationType" factoryName="Python">
+    <module name="arabic-genai-competency" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/reproduce_analysis.py" />
+    <option name="PARAMETERS" value="--data data/arabic_genai_competency_data.csv --outdir output" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

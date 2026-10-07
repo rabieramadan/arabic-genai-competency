@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Regression tests" type="tests" factoryName="py.test">
+    <module name="arabic-genai-competency" />
+    <option name="PARENT_ENVS" value="true" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="_new_additionalArguments" value="&quot;-v&quot;" />
+    <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+    <option name="_new_targetType" value="&quot;PATH&quot;" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,30 @@
+Editor point,Requirement,File,Location,Status
+1,Helsinki accordance statement in ethical declarations,Manuscript_REVISED.docx,Declarations → Statement of accordance,DONE
+1,Accordance statement in editable English in cover letter,CoverLetter_REVISED.docx,Ethical statements section,DONE
+1,Ethics approval reference number and date,CoverLetter_REVISED.docx / Manuscript_REVISED.docx,Ethics approval statement,ACTION: insert reference and date
+1,Signed ethics committee letter attached,—,Submission system,ACTION: attach file
+2,Raw data file,arabic_genai_competency_data.csv,data/,DONE
+2,Processed data file,arabic_genai_competency_processed.csv,data/,DONE
+2,"Survey instrument, Arabic + English",S1_Survey_instrument_bilingual.docx,instrument/,DONE
+2,Consent-screen text and administration protocol,S1_Survey_instrument_bilingual.docx,Sections A and E,"PARTIAL: recruitment route, field dates and incentives still bracketed"
+2,Variable definitions and coding scheme,codebook_extended.csv,data/,DONE
+2,Transformations and derived-variable formulas,codebook_extended.csv,Derived rows,DONE
+2,Analysis script,reproduce_analysis.py,analysis/,DONE
+2,Supporting documentation / manifest,README.md,package root,DONE
+2,Data Availability statement at end of manuscript,Manuscript_REVISED.docx,Data availability section,DONE
+2,Repository DOI / permanent link,—,Data availability statement,ACTION: deposit and insert DOI
+2,"Materials accessible to referees now, not on acceptance",Manuscript_REVISED.docx §3.2 + cover letter,—,DONE
+3,Results verified against raw data,verification_table.csv,45 quantities checked,DONE
+3,Three material reporting issues corrected,Manuscript_REVISED.docx,"§3.3, §4.1, §4.2, §4.3, Tables 2-4",DONE
+3,Minor numeric discrepancies corrected,Manuscript_REVISED.docx,"Tables 1, 3, 5 and in-text",DONE
+3,Overstated conclusions rewritten,Manuscript_REVISED.docx,"Title, §4.1, §5, §6, §8",DONE
+3,Limitations fully explained,Manuscript_REVISED.docx,§7,DONE
+—,Point-by-point response,Response_to_Editor.docx,—,DONE
+—,Abstract and keywords,—,Front matter,ACTION: absent from the submitted file; journal requires both
+—,Funding statement,Manuscript_REVISED.docx / cover letter,Declarations,ACTION: complete bracketed text
+—,Author contributions (CRediT),Manuscript_REVISED.docx,Declarations,ACTION: complete bracketed text
+—,Generative-AI use disclosure,Manuscript_REVISED.docx,Declarations,ACTION: complete bracketed text
+—,Competing interests,Manuscript_REVISED.docx / cover letter,Declarations,DONE
+—,Author name and count reconciled,Manuscript_REVISED.docx / CoverLetter_REVISED.docx,"Byline, corresponding block, sign-off",DONE
+—,Stale cover-letter note removed,CoverLetter_REVISED.docx,—,DONE
+—,Tracked-changes version,—,Word → Review → Compare,ACTION: generate against original

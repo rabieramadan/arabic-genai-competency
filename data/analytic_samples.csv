@@ -1,0 +1,7 @@
+Analytic sample,Inclusion rule,n,Used for
+Full sample,All respondents,145,"Table 1, Table A1, item descriptives, sensitivity power"
+EFA listwise,All 28 Likert items answered,136,"KMO, Bartlett, EFA, parallel analysis, Harman"
+Repeated-measures listwise,All four subscale scores computable,144,"RM-ANOVA, pairwise contrasts, Wilcoxon, inter-dimension correlations"
+Weekly-use ANOVA,Overall score + weekly use present,143,"One-way ANOVA, Welch, Kruskal-Wallis, Tukey"
+GPA ANOVA,Overall score + GPA present,142,GPA group comparison
+Regression listwise,All model variables present,140,"Hierarchical regression, diagnostics"

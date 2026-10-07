@@ -1,0 +1,46 @@
+Location,Quantity,Reported in manuscript,Recomputed from raw data,Verdict,Note
+3.1 / Table 1,N,145,145,match,
+3.3,Missing Likert cells,1.2%,1.23%,match,
+3.3,Missing GPA,3,3,match,
+Table 1,Weekly-use denominator,145 implied,143 (2 non-responses),DISCREPANCY,Table note declares only the 3 GPA non-responses; weekly-use % are also computed on a reduced base (n=143).
+4.1,KMO,0.856,0.856,match,
+4.1,Bartlett chi2(378),2965.4,2965.4,match,
+4.1,EFA cumulative variance,61.1%,61.1%,match,Reproduced only with minimum-residual (principal-axis) extraction; a PCA extraction gives 66.1%.
+4.1,Harman single factor,32.7%,32.7%,match,
+4.1,Factor correlation range,.25-.66,0.26-0.71,DISCREPANCY,"Upper bound recomputes to .71, not .66."
+4.1,Parallel analysis factors,3,3,match,
+4.1,Eigenvalue 4 vs 95th pct,1.56 vs 1.67,1.56 vs 1.67,match,
+4.1,Aspiration ceiling (>=4.5),42.8%,42.8% (N=145),match,Text places this in 4.1 where N=145; the RM analysis uses N=144 (43.1%).
+Table 2,alpha range,.81-.94,.81-.94,match,
+Table 2,omega range,.87-.95,.81-.94 (common-factor) / .86-.95 (PCA),ESTIMATOR-DEPENDENT,"Reported omega (.91/.92/.87/.95) is reproduced to within .01 by a principal-components estimator (.91/.92/.86/.95; the Prompt-Engineering value differs by .01). Under the common-factor estimator matching the reported EFA it is .89/.90/.81/.94. The estimator, not rounding, drives the gap."
+Table 2 / 4.1,"AVE, all dimensions >= .52",.64/.58/.52/.72,0.58/0.52/0.42/0.68,MATERIAL DISCREPANCY,"Reported AVE reproduces exactly under a PRINCIPAL-COMPONENTS estimator (.64/.58/.52/.72). Under the common-factor estimator matching the reported minimum-residual EFA, AVE = .58/.52/.42/.68: Prompt-Engineering falls BELOW the .50 convergent-validity threshold. omega, CR and AVE are all PCA-based while the EFA is common-factor - an internal inconsistency in the analytic strategy that must be disclosed and resolved."
+4.1,CR 'reported individually in Table 2',CR >= .87,Table 2 has no CR column,DISCREPANCY,Text promises per-dimension CR in Table 2; the table reports only a range in its note. Recomputed CR = .89/.90/.81/.94.
+Table 3,sqrt(AVE) diagonal,.80/.76/.72/.85,0.76/0.72/0.65/0.82,DISCREPANCY,Follows from the AVE estimator above. Fornell-Larcker is satisfied under BOTH estimators.
+4.1 / Table 3,HTMT range,.14-.72,0.14-0.72,match,
+4.2,"RM-ANOVA F(3,429)",115.53,115.53,match,
+4.2,generalised eta2,0.27,0.27,match,
+4.2,Mauchly W / GG epsilon,.71 / .80,0.71 / 0.8,match,
+4.2,Paired t for focal gap,t(143)=13.68,t(143)=13.68,match,
+4.2,Mean difference + 95% CI,"1.11 [0.95, 1.27]","1.11 [0.95, 1.26]",match,Upper bound recomputes to 1.26.
+4.2 vs Table 4,Effect size for the SAME contrast,text d=1.14; Table 4 d=1.31,d_z=1.14; d_av=1.31,MATERIAL DISCREPANCY,"Both values are correct but use different standardisers. Table 4's 'Cohen's d' column is d_av (average-SD); the text reports d_z. Unlabelled, this reads as a contradiction."
+4.2,Aspiration-Awareness r,"r=.12, p=.16","r=0.12, p=0.164",match,
+4.2,Awareness-Prompt r,.44,0.43,DISCREPANCY,Recomputes to .43 (Table 3 also prints .44).
+4.3,"Weekly-use ANOVA F(3,139)",12.37,12.37,match,
+4.3,eta2 weekly use,0.21,0.21,match,
+4.3,Kruskal-Wallis H,31.67,31.67,match,
+4.3,Hedges g (>5 vs rarely / 3-5 vs rarely / 1-2 vs 3-5),1.29 / 1.23 / -0.79,1.29 / 1.23 / -0.79,match,
+4.3,Prior training M,3.53 vs 3.28,3.53 vs 3.28,match,
+4.3,Training Welch / MW / d,.016 / .043 / 0.42,0.016 / 0.043 / 0.42,match,
+4.3,"GPA F(2,139)","0.06, p=.94, eta2=.001","0.06, p=0.942, eta2=0.001",match,
+Table 5,Regression N,140,140,match,
+4.3,Step R2 sequence,.001 / .03 / .20,0.001 / 0.031 / 0.196,match,
+4.3,Step 3 dR2 and F-change,".17, F=27.68","0.165, F=27.68",match,dR2 recomputes to .165 (rounds to .17).
+Table 5,"Model F(4,135)",8.22,8.22,match,
+Table 5,Prior AI training B,0.12,0.11,DISCREPANCY,Minor rounding.
+Table 5,Postgraduate beta,0.04,0.03,DISCREPANCY,Minor rounding.
+4.3,VIFs,all ~1.1,"{'gpa_n': 1.14, 'postgrad': 1.12, 'train_n': 1.08, 'freq_n': 1.08}",match,
+4.3,Breusch-Pagan / Shapiro / Cook max,.19 / .08 / .20,0.193 / 0.076 / 0.195,match,
+4.3,Application as outcome,"R2=.21, freq<.001, train=.72","R2=0.211, freq=0.0, train=0.723",match,
+4.3,Detectable correlation,r >= .23,r >= 0.23,match,
+4.3,Detectable ANOVA effect,f >= .07,f >= 0.28,MATERIAL DISCREPANCY,"Reported .07 is the detectable eta2, not f. Cohen's f = sqrt(.07/.93) = .28. As written the design's ANOVA sensitivity is overstated four-fold."
+4.3,Detectable d (training),d >= .59,d >= 0.59,match,
